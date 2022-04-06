@@ -5,9 +5,6 @@ import express from 'express';
 import logging from './config/logging';
 import config from './config/config';
 import mongoose from 'mongoose';
-
-import swaggerUi from 'swagger-ui-express';
-
 import * as dotenv from 'dotenv';
 
 dotenv.config({ path: path.join(__dirname, '.env') });
