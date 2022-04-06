@@ -4,8 +4,8 @@
     "description": "",
     "main": "source/server.ts",
     "scripts": {
-        "build": "rm -rf build/ && prettier --write source/ && tsc",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "lint": "prettier --write .  && git add ."
     },
     "author": "",
     "license": "ISC",
